@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculo fatorial / guarnabara</title>
+</head>
+
+<body>   
+<div class="container">
+
+     <!-- código aqui -->
+    <h1>Cálculo fatorial</h1>
+    <p>Escreva um número (entre 1 a 21) na caixa a seguir e te mostrarei o Fatorial dele.</p>
+    <section id="Entrada">
+        <form action="#" method="get">
+            <p>
+                <label for="fnum">Número: </label>
+                <input type="number" name="num" id="fnum" max="21" min="1" placeholder="Número: ">
+                <!-- vamos limtar os numeros entre 1 a 21, pois não existe fatorial de número negativo (0! = 1) e o fatorial de 22 já é um número muito grande para ser representado de forma simples na tela. -->
+                <input type="submit" value="Fatorial" formaction="javascript:fatorial()">
+            </p>
+        </form>
+    </section>
+    <section id="saida">
+        <p>Preencha os dados acima e aperte o botão.</p>
+        <hr>
+    </section>   
+    <footer>
+        <h2>DevOsc&copy;2022- Todos os direitos reservados</h2>
+        <p>Fonte:
+            <a href="http://github.com/gustavoguanabara/javascript" target="_blank"> Github do gustavo guanabara</a>
+        </p>
+    </footer> 
+</div>
+  
+
+   
+    <script src="script.js"></script>
+</body>
+
+</html>
